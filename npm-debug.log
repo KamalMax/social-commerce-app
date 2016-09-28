@@ -1,0 +1,245 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'typescript' ]
+2 info using npm@3.10.7
+3 info using node@v4.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData typescript
+8 silly fetchNamedPackageData typescript
+9 silly mapToRegistry name typescript
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'typescript',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'typescript',
+12 silly mapToRegistry   name: 'typescript',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/typescript
+14 verbose request uri https://registry.npmjs.org/typescript
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 2:30:55 PM
+17 verbose request id 71815110e9964966
+18 verbose etag "AZFU0JJ93QBHQ27ERMYP60NNI"
+19 http request GET https://registry.npmjs.org/typescript
+20 http 304 https://registry.npmjs.org/typescript
+21 verbose headers { date: 'Tue, 13 Sep 2016 11:00:56 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"AZFU0JJ93QBHQ27ERMYP60NNI"',
+21 verbose headers   age: '229',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-ams4428-AMS',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '3',
+21 verbose headers   'x-timer': 'S1473764456.916322,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 13 Sep 2016 11:00:56 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"AZFU0JJ93QBHQ27ERMYP60NNI"',
+22 silly get     age: '229',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-ams4428-AMS',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '3',
+22 silly get     'x-timer': 'S1473764456.916322,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/typescript from cache
+24 verbose get saving typescript to /home/kamal/.npm/registry.npmjs.org/typescript/.cache.json
+25 verbose correctMkdir /home/kamal/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule typescript@1.8.10 checking installable status
+39 silly cache add args [ 'typescript', null ]
+40 verbose cache add spec typescript
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'typescript',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'typescript',
+41 silly cache add   name: 'typescript',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed typescript@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for typescript
+44 info addNameTag [ 'typescript', 'latest' ]
+45 silly mapToRegistry name typescript
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'typescript',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'typescript',
+48 silly mapToRegistry   name: 'typescript',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/typescript
+50 verbose addNameTag registry:https://registry.npmjs.org/typescript not in flight; fetching
+51 verbose get https://registry.npmjs.org/typescript not expired, no request
+52 silly addNameTag next cb for typescript with tag latest
+53 silly addNamed typescript@1.8.10
+54 verbose addNamed "1.8.10" is a plain semver version for typescript
+55 silly cache afterAdd typescript@1.8.10
+56 verbose afterAdd /home/kamal/.npm/typescript/1.8.10/package/package.json not in flight; writing
+57 verbose correctMkdir /home/kamal/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /home/kamal/.npm/typescript/1.8.10/package/package.json written
+59 silly loadAllDepsIntoIdealTree Finishing
+60 silly loadIdealTree Finishing
+61 silly currentTree lib
+62 silly idealTree lib
+62 silly idealTree └── typescript@1.8.10
+63 silly generateActionsToTake Starting
+64 silly install generateActionsToTake
+65 silly generateActionsToTake Finishing
+66 silly diffTrees action count 1
+67 silly diffTrees add typescript@1.8.10
+68 silly decomposeActions action count 8
+69 silly decomposeActions fetch typescript@1.8.10
+70 silly decomposeActions extract typescript@1.8.10
+71 silly decomposeActions test typescript@1.8.10
+72 silly decomposeActions preinstall typescript@1.8.10
+73 silly decomposeActions build typescript@1.8.10
+74 silly decomposeActions install typescript@1.8.10
+75 silly decomposeActions postinstall typescript@1.8.10
+76 silly decomposeActions finalize typescript@1.8.10
+77 silly runTopLevelLifecycles Starting
+78 silly executeActions Starting
+79 silly install executeActions
+80 silly doSerial global-install 0
+81 silly doParallel fetch 1
+82 verbose correctMkdir /home/kamal/.npm/_locks correctMkdir not in flight; initializing
+83 verbose lock using /home/kamal/.npm/_locks/staging-a072192f34a17023.lock for /usr/lib/node_modules/.staging
+84 silly doParallel extract 1
+85 silly extract typescript@1.8.10
+86 verbose unbuild lib/node_modules/.staging/typescript-c7c5c101
+87 silly gentlyRm /usr/lib/node_modules/.staging/typescript-c7c5c101 is being purged from base /usr
+88 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/typescript-c7c5c101
+89 verbose tar unpack /home/kamal/.npm/typescript/1.8.10/package.tgz
+90 verbose tar unpacking to /usr/lib/node_modules/.staging/typescript-c7c5c101
+91 silly gentlyRm /usr/lib/node_modules/.staging/typescript-c7c5c101 is being purged
+92 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/typescript-c7c5c101
+93 silly gunzTarPerm modes [ '750', '640' ]
+94 silly gunzTarPerm extractEntry package.json
+95 silly gunzTarPerm modified mode [ 'package.json', 438, 416 ]
+96 silly gunzTarPerm extractEntry .npmignore
+97 silly gunzTarPerm modified mode [ '.npmignore', 438, 416 ]
+98 silly gunzTarPerm extractEntry README.md
+99 silly gunzTarPerm modified mode [ 'README.md', 438, 416 ]
+100 silly gunzTarPerm extractEntry ThirdPartyNoticeText.txt
+101 silly gunzTarPerm modified mode [ 'ThirdPartyNoticeText.txt', 438, 416 ]
+102 silly gunzTarPerm extractEntry AUTHORS.md
+103 silly gunzTarPerm modified mode [ 'AUTHORS.md', 438, 416 ]
+104 silly gunzTarPerm extractEntry CONTRIBUTING.md
+105 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 438, 416 ]
+106 silly gunzTarPerm extractEntry CopyrightNotice.txt
+107 silly gunzTarPerm modified mode [ 'CopyrightNotice.txt', 438, 416 ]
+108 silly gunzTarPerm extractEntry LICENSE.txt
+109 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 416 ]
+110 silly gunzTarPerm extractEntry bin/tsc
+111 silly gunzTarPerm modified mode [ 'bin/tsc', 438, 416 ]
+112 silly gunzTarPerm extractEntry bin/tsserver
+113 silly gunzTarPerm modified mode [ 'bin/tsserver', 438, 416 ]
+114 silly gunzTarPerm extractEntry lib/README.md
+115 silly gunzTarPerm modified mode [ 'lib/README.md', 438, 416 ]
+116 silly gunzTarPerm extractEntry lib/typescript.js
+117 silly gunzTarPerm modified mode [ 'lib/typescript.js', 438, 416 ]
+118 silly gunzTarPerm extractEntry lib/tsserver.js
+119 silly gunzTarPerm modified mode [ 'lib/tsserver.js', 438, 416 ]
+120 silly gunzTarPerm extractEntry lib/tsc.js
+121 silly gunzTarPerm modified mode [ 'lib/tsc.js', 438, 416 ]
+122 silly gunzTarPerm extractEntry lib/typescriptServices.js
+123 silly gunzTarPerm modified mode [ 'lib/typescriptServices.js', 438, 416 ]
+124 silly gunzTarPerm extractEntry lib/lib.d.ts
+125 silly gunzTarPerm modified mode [ 'lib/lib.d.ts', 438, 416 ]
+126 silly gunzTarPerm extractEntry lib/lib.dom.d.ts
+127 silly gunzTarPerm modified mode [ 'lib/lib.dom.d.ts', 438, 416 ]
+128 silly gunzTarPerm extractEntry lib/lib.es7.d.ts
+129 silly gunzTarPerm modified mode [ 'lib/lib.es7.d.ts', 438, 416 ]
+130 silly gunzTarPerm extractEntry lib/lib.core.d.ts
+131 silly gunzTarPerm modified mode [ 'lib/lib.core.d.ts', 438, 416 ]
+132 silly gunzTarPerm extractEntry lib/lib.webworker.d.ts
+133 silly gunzTarPerm modified mode [ 'lib/lib.webworker.d.ts', 438, 416 ]
+134 silly gunzTarPerm extractEntry lib/lib.es6.d.ts
+135 silly gunzTarPerm modified mode [ 'lib/lib.es6.d.ts', 438, 416 ]
+136 silly gunzTarPerm extractEntry lib/lib.core.es7.d.ts
+137 silly gunzTarPerm modified mode [ 'lib/lib.core.es7.d.ts', 438, 416 ]
+138 silly gunzTarPerm extractEntry lib/typescript.d.ts
+139 silly gunzTarPerm modified mode [ 'lib/typescript.d.ts', 438, 416 ]
+140 silly gunzTarPerm extractEntry lib/lib.core.es6.d.ts
+141 silly gunzTarPerm modified mode [ 'lib/lib.core.es6.d.ts', 438, 416 ]
+142 silly gunzTarPerm extractEntry lib/typescriptServices.d.ts
+143 silly gunzTarPerm modified mode [ 'lib/typescriptServices.d.ts', 438, 416 ]
+144 silly gunzTarPerm extractEntry lib/lib.scriptHost.d.ts
+145 silly gunzTarPerm modified mode [ 'lib/lib.scriptHost.d.ts', 438, 416 ]
+146 silly gunzTarPerm extractEntry test.config
+147 silly gunzTarPerm modified mode [ 'test.config', 438, 416 ]
+148 silly gentlyRm /usr/lib/node_modules/.staging/typescript-c7c5c101/node_modules is being purged
+149 verbose gentlyRm don't care about contents; nuking /usr/lib/node_modules/.staging/typescript-c7c5c101/node_modules
+150 silly doParallel preinstall 1
+151 silly preinstall typescript@1.8.10 /usr/lib/node_modules/.staging/typescript-c7c5c101
+152 info lifecycle typescript@1.8.10~preinstall: typescript@1.8.10
+153 silly lifecycle typescript@1.8.10~preinstall: no script for preinstall, continuing
+154 silly doReverseSerial remove 0
+155 silly doSerial move 0
+156 silly doSerial finalize 1
+157 silly finalize /usr/lib/node_modules/typescript
+158 silly doSerial build 1
+159 silly build typescript@1.8.10
+160 info linkStuff typescript@1.8.10
+161 silly linkStuff typescript@1.8.10 has /usr/lib/node_modules as its parent node_modules
+162 silly linkStuff typescript@1.8.10 is part of a global install
+163 silly linkStuff typescript@1.8.10 is installed into a global node_modules
+164 silly linkStuff typescript@1.8.10 is installed into the top-level global node_modules
+165 verbose linkBins typescript@1.8.10
+166 verbose link bins [ { tsc: './bin/tsc', tsserver: './bin/tsserver' },
+166 verbose link bins   '/usr/bin',
+166 verbose link bins   true ]
+167 verbose linkMans typescript@1.8.10
+168 silly gentlyRm /usr/bin/tsserver is being gently removed
+169 silly gentlyRm /usr/bin/tsc is being gently removed
+170 verbose unlock done using /home/kamal/.npm/_locks/staging-a072192f34a17023.lock for /usr/lib/node_modules/.staging
+171 silly rollbackFailedOptional Starting
+172 silly rollbackFailedOptional Finishing
+173 silly runTopLevelLifecycles Finishing
+174 silly install printInstalled
+175 verbose stack Error: EACCES: permission denied, symlink '../lib/node_modules/typescript/bin/tsserver' -> '/usr/bin/tsserver'
+175 verbose stack     at Error (native)
+176 verbose cwd /home/kamal/projects/nativescript/social-commerce
+177 error Linux 4.4.0-36-generic
+178 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "typescript"
+179 error node v4.5.0
+180 error npm  v3.10.7
+181 error path ../lib/node_modules/typescript/bin/tsserver
+182 error code EACCES
+183 error errno -13
+184 error syscall symlink
+185 error Error: EACCES: permission denied, symlink '../lib/node_modules/typescript/bin/tsserver' -> '/usr/bin/tsserver'
+185 error     at Error (native)
+185 error  { [Error: EACCES: permission denied, symlink '../lib/node_modules/typescript/bin/tsserver' -> '/usr/bin/tsserver']
+185 error   errno: -13,
+185 error   code: 'EACCES',
+185 error   syscall: 'symlink',
+185 error   path: '../lib/node_modules/typescript/bin/tsserver',
+185 error   dest: '/usr/bin/tsserver' }
+186 error Please try running this command again as root/Administrator.
+187 verbose exit [ -13, true ]

@@ -1,0 +1,42 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+	navigatingTo="onNavigated" >
+
+	<ScrollView>
+		<StackLayout 
+			orientation="vertical" >
+			<GridLayout
+		 		rows="auto, 500, auto, auto, *" >
+            
+
+ 		 		<Label
+   					horizontalAlignment="center"
+   					text="{{ name }}"
+   					textWrap="true"
+   					class="title-text bold-text" />
+
+				<Image
+					row="1"
+					src="{{ imgUrl }}"
+					stretch="aspectFill"
+					class="product-image" />
+
+				<Label
+					row="2"
+					horizontalAlignment="center"
+					text="{{ description }}"
+					textWrap="true"
+					class="description-text bold-text" />
+
+				<Label
+					row="3"
+					marginTop="50"
+					horizontalAlignment="center"
+					text="{{'Price: ' + price + '$'}}"
+					textWrap="true"
+					class="price-text bold-text" />
+			
+			</GridLayout>
+	 	</StackLayout>
+	</ScrollView>
+
+</Page>

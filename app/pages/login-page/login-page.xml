@@ -1,0 +1,33 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+	loaded="onPageLoaded" >
+
+	<StackLayout 
+		orientation="vertical" >
+		
+		<Label
+			text="Name: " 
+			marginLeft="5"
+			class="name-text bold" />
+		
+		<TextView 
+			id="login_name_tv"
+			text="" />
+
+		<Label
+			text="Password: "
+			marginLeft="5" 
+			class="name-text bold" />
+		
+		<TextView 
+			id="login_password_tv"
+			text="" />
+
+		<Button
+			id="login_button"
+			text="Login"
+			class="login-button"
+			tap="loginButtonTap" />
+ 	
+ 	</StackLayout>
+
+</Page>

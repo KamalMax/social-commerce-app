@@ -1,0 +1,41 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+	navigatingTo="onNavigated" >
+
+	<StackLayout 
+		orientation="vertical" >
+		<GridLayout
+	 		rows="*" >
+
+	  		<ListView
+	  			items="{{ products }}" 
+	  			itemTap="onItemTap" >
+
+	  			<ListView.itemTemplate>
+
+	  				<GridLayout
+	  					rows="100"
+	  					columns="100, *" >
+
+		   				<Image
+		   					col="0"
+		   					src="{{ imgUrl }}"
+		   					stretch="aspectFill" />
+
+		   				<Label
+		   					col="1"
+		   					verticalAlignment="center"
+		   					marginLeft="10"
+		   					text="{{ name }}"
+		   					textWrap="true"
+		   					class="name-text bold-text" />
+
+	   				</GridLayout>
+    			
+    			</ListView.itemTemplate>
+	  		
+	  		</ListView>
+	
+		</GridLayout>
+ 	</StackLayout>
+
+</Page>

@@ -1,0 +1,72 @@
+﻿GridLayout {
+	border-radius: 5;
+}
+
+.page-header {
+	background-image: url('res://background');
+	background-size: cover;
+}
+
+.name-text {
+	font-size: 14;
+	color: black;
+}
+
+.price-text {
+	font-size: 14;
+	color: #007f00;
+}
+
+.like-text {
+	font-size: 13;
+	color:  #FF0000;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+
+.title-text {
+	margin-top: 5;
+	font-size: 20;
+	color:  #FF0000;
+}
+
+.description-text {
+	font-size: 17;
+	text-align: center;
+	color:  black;
+	margin-top: 10;
+}
+
+.product-image {
+	margin-top: 20;
+	margin-right: 50;
+	margin-left: 50;
+}
+
+.order-button {
+	margin-top: 5;
+	width: 100;
+	height: 50;
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18;
+    vertical-align: bottom;
+    horizontal-align: center;
+    margin-bottom: 10;
+}
+
+.login-button {
+	width: 100;
+	height: 50;
+	background-color: #FF0000;
+	border-radius: 10;
+    border: none;
+    color: white;
+	horizontal-align: center;
+    margin-top: 10;
+}

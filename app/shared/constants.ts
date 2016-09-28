@@ -1,0 +1,1 @@
+export const SERVER_URL = 'http://expa.ir:8585';
